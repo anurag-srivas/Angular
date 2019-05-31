@@ -4,9 +4,8 @@ import { Component, Input,Output, EventEmitter} from '@angular/core';
     selector: "event-thumbnail",
     templateUrl: "./event.list.thumbnail.html",
     styles: [`
-        .well div {
-            color: red;
-        }`
+        .thumbnail {min-height: 210px}
+        .well div { color: #bbb;}`
     ]
 })
 export class EvenListThumbnailComponent{
