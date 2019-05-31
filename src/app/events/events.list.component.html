@@ -1,0 +1,8 @@
+`<div>
+    <h1> Upcoming Events </h1>
+    <h2>{{thumbnail.showChildProp}}</h2>
+    <div class="well">
+        <div>Parent</div>
+    <event-thumbnail #thumbnail [event] = "eventData" (eventHandleClickMe) = "handleEventListClickMe($event)"></event-thumbnail>
+    <button class="btn btn-primary" (click)="thumbnail.logTemplateRefrenceFunc()">Parent Button</button>
+</div>`
